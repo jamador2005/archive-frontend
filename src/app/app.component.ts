@@ -14,6 +14,8 @@ export class AppComponent {
   title: string = '';
   author: string = '';
 
+  instanceNumber:number=0;
+
   posts$ = new Observable<Posts[]>();
 
   constructor(private apiService: ApiService) {
@@ -23,5 +25,12 @@ export class AppComponent {
   buttonClick() {
     this.posts$ = this.apiService.getPosts();
     console.log(this.posts$);
+  }
+
+  clearValues() {
+    this.posts$ = new Observable<Posts[]>();
+  }
+
+  openPrefsForm(){
   }
 }

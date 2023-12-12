@@ -1,3 +1,8 @@
+https://www.youtube.com/watch?v=rjrQpMYtTUw
+
+https://github.com/cristianWilliam/ANGULAR-CONSUMINDO-API/blob/main/src/app/app.component.html
+
+
 # ArchiveFrontend
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.10.
